@@ -163,8 +163,8 @@ result = '* '.join(web_tech)
 print(result) # 'HTML* CSS* JavaScript* React'
 
 # strip(): Removes both leading and trailing characters
-challenge = ' thirty days of python '
-print(challenge.strip('y'))  # 5
+challenge = 'yHello y Worldy'
+print(challenge.strip('y')) # Hello y World
 
 # replace(): Replaces substring inside
 challenge = 'thirty days of python'
