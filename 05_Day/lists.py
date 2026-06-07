@@ -1,3 +1,8 @@
+# List:       ordered, changeable.                 Allows duplicate members.
+# Tuple:      ordered, unchangeable.               Allows duplicate members.
+# Set:        unordered, unchangable.              No duplicate members
+# Dictionary: unordered, changeable and indexed.   No duplicate members.
+
 # List declaration
 empty_list = list() # this is an empty list, no item in the list
 print(len(empty_list)) # 0
