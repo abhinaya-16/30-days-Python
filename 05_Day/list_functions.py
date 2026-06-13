@@ -32,6 +32,8 @@ print()
 #--------------------------------------------------------------------------------
 
 #Removing Items from a List
+
+#remove() function only removes one item
 # syntax
 lst = ['item1', 'item2']
 lst.remove('item1')
@@ -48,7 +50,7 @@ print()
 
 #Removing Items Using Pop
 #The pop() method removes the specified index, (or the last item if index is not specified):
-
+# pop() method removes one item at a time
 # syntax
 lst = ['item1', 'item2', 'item3']
 lst.pop()    # last item
@@ -220,7 +222,7 @@ print(fruits_and_vegetables ) # ['banana', 'orange', 'mango', 'lemon', 'Tomato',
 print()
 #--------------------------------------------------------------------------------
 
-#Joining List using the extend() function
+#Extend Lists using the extend() function
 # Alters the list being extended
 
 # syntax
@@ -249,4 +251,9 @@ print('Fruits and vegetables:', fruits ) # Fruits and vegetables: ['banana', 'or
 print()
 #--------------------------------------------------------------------------------
 
+# Add all the values in a list
+numbers = [10, 20, 30, 40]
+total = sum(numbers)
+
+print(total)  # Output: 100
 

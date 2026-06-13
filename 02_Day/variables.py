@@ -52,6 +52,7 @@ city = 'Toronto'
 age = 21
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
+# This is a dictionary:
 person_info = {
    'firstname':'Abi',
    'lastname':'Kennedy',

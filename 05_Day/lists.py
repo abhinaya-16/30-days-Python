@@ -1,6 +1,6 @@
-# List:       ordered, changeable.                 Allows duplicate members.
-# Tuple:      ordered, unchangeable.               Allows duplicate members.
-# Set:        unordered, unchangable.              No duplicate members
+# List[]:       ordered, changeable.                                                      Allows duplicate members.
+# Tuple():      ordered, unchangeable.                                                    Allows duplicate members.
+# Set{}:        unordered, unchangable.(but we can add new items to the set)              No duplicate members
 # Dictionary: unordered, changeable and indexed.   No duplicate members.
 
 # List declaration
