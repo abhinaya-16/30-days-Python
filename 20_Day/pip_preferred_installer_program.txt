@@ -1,0 +1,32 @@
+# Pip(preferred installer program) is a Python package manager
+
+$ pip install pip
+This is used to install pip
+
+$ pip --version
+pip 25.3 from C:\Python314\Lib\site-packages\pip (python 3.14)
+
+# Installing different packages in python:
+$ pip install numpy
+$ pip install pandas
+
+# Uninstall packages
+pip uninstall packagename
+
+# List packages
+pip list 
+
+# Show information about a package
+pip show packagename
+pip show --verbose packagename (more details)
+
+# A requirements.txt file is a file that should contain all the installed Python packages in a Python project.
+pip freeze
+# The pip freeze gave us the packages used, installed and their version. We use it with requirements.txt file for deployment.
+
+# API stands for Application Program Interface. It is a means to exchange structured data between servers primarily as json data. 
+# To open a network connection, we need a package called requests 
+# - it allows to open a network connection and to implement CRUD(create, read, update and delete) operations. 
+# In this section, we will cover only reading ore getting part of a CRUD
+
+
